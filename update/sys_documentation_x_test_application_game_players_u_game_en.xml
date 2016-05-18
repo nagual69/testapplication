@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_game" label="Game" language="en" table="x_test_application_game_players">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_game</element>
+            <help/>
+            <hint/>
+            <label>Game</label>
+            <language>en</language>
+            <name>x_test_application_game_players</name>
+            <plural>Games</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-05-18 21:16:20</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>cd9672d88c2312007f448767a25bcf5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Game</sys_name>
+            <sys_package display_value="Test Application" source="x_test_application">31633e588c2312007f448767a25bcfce</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Test Application">31633e588c2312007f448767a25bcfce</sys_scope>
+            <sys_update_name>sys_documentation_x_test_application_game_players_u_game_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-05-18 21:16:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

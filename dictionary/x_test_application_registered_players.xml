@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Registered Players" max_length="40" name="x_test_application_registered_players" type="collection">
+        <element display="true" label="Player" mandatory="true" max_length="32" name="u_player" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_player"/>
+        </index>
+    </element>
+</database>

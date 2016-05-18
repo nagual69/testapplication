@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Game Players" max_length="40" name="x_test_application_game_players" type="collection">
+        <element label="Game" mandatory="true" max_length="32" name="u_game" reference="x_test_application_game" type="reference"/>
+        <element label="Player" mandatory="true" max_length="32" name="u_player" reference="x_test_application_registered_players" type="reference"/>
+        <element default="true" label="Playing" max_length="40" name="u_playing" type="boolean"/>
+        <index name="index">
+            <element name="u_player"/>
+        </index>
+        <index name="index2">
+            <element name="u_game"/>
+        </index>
+    </element>
+</database>
